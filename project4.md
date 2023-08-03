@@ -348,6 +348,15 @@ app.controller('myCtrl', function($scope, $http) {
 
 ![backend server](./images/backend-server-edit.jpg)
 
+![frontend edit 2](./images/frontend-edit2.jpg)
+
+![backend server 2](./images/backend-server-edit2.jpg)
+
+![final frontend](./images/final-frontend.jpg)
+
+
+
+
 
 
 
