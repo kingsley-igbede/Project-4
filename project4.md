@@ -338,6 +338,20 @@ app.controller('myCtrl', function($scope, $http) {
 
 ![server status](./images/serverjs-running.jpg)
 
+*Accessing server over the web browser with port 3300 open in the security group on AWS*
+
+![server status](./images/server-webbrowser-status.jpg)
+
+*edit book info*
+
+![frontend edit](./images/server-browser-edit.jpg)
+
+![backend server](./images/backend-server-edit.jpg)
+
+
+
+
+
 
 
 
