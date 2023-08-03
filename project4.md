@@ -66,6 +66,36 @@ https://pgp.mongodb.com/server-6.0.asc
 
 ![mongod status](./images/mongod-status.jpg)
 
+Update Version of NodeJS
+
+*Installing Node.js with Apt Using a NodeSource PPA*
+
+`curl -sL https://deb.nodesource.com/setup_18.x -o /tmp/nodesource_setup.sh`
+
+*Check Nodejs content with test editor*
+
+`nano /tmp/nodesource_setup.sh`
+
+![updated nodejs content](./images/updated-nodejs-content.jpg)
+
+*Run the script with sudo*
+
+`sudo bash /tmp/nodesource_setup.sh`
+
+The PPA will be added to your configuration and your local package cache will be updated automatically. You can now install the Node.js package in the same way you did in the previous section
+
+`sudo apt install nodejs`
+
+*Nodejs version update*
+
+`node -v`
+
+![updated nodejs status](./images/updated-nodejs-status.jpg)
+
+
+
+
+
 
 
 
