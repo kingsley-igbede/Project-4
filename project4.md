@@ -92,6 +92,43 @@ The PPA will be added to your configuration and your local package cache will be
 
 ![updated nodejs status](./images/updated-nodejs-status.jpg)
 
+*Install body-parser package*
+
+`sudo npm install body-parser`
+
+![body parser](./images/body-parser-install.jpg)
+
+*Create a folder named ‘Books’*
+
+`mkdir Books && cd Books`
+
+*In the Books directory, Initialize npm project*
+
+`npm init`
+
+![npm init](./images/npm-init.jpg)
+
+*Add a file to it named server.js*
+
+`sudo vi server.js`
+
+*Copy and paste the web server code below into the server.js file*
+
+`var express = require('express');
+var bodyParser = require('body-parser');
+var app = express();
+app.use(express.static(__dirname + '/public'));
+app.use(bodyParser.json());
+require('./apps/routes')(app);
+app.set('port', 3300);
+app.listen(app.get('port'), function() {
+    console.log('Server up: http://localhost:' + app.get('port'));
+});`
+
+
+
+
+
 
 
 
